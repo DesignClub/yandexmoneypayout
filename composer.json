@@ -10,8 +10,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-          "yandexmoneypayout\\yandexmoneypayout\\": "lib/"
-        }
+        "classmap": ["lib/"]
     },
 }
