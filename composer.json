@@ -1,17 +1,9 @@
 {
     "name": "yandexmoneypayout/yandexmoneypayout",
-    "description": "",
-    "minimum-stability": "stable",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "yandexmoneypayout",
-            "email": "yandexmoneypayout@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "YandexMoney\\": "lib/"
+            "YandexMoneyPayOut\\": "lib/"
         }
     },
 }
