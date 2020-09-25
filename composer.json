@@ -10,6 +10,7 @@
         },
         "psr-0": { 
             "YandexMoneyPayOut\\": ["lib/"] 
-        }
+        },
+        "files": ["lib/BalanceRequestParams.php"]
     },
 }
