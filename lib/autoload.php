@@ -5,14 +5,20 @@
  * Time: 19:33
  */
 
-function yandexmoneypayoutClass( $className )
-{
-    $parts = explode( '\\', $className );
+define('YANDEX_MONEY_PAY_ROOT_PATH', dirname(__FILE__));
 
-    if ( $parts[ 0 ] == 'YandexMoney' )
-    {
-        require __DIR__.'/'.implode('/', array_slice($parts, 1)) . '.php';
+function yandexmoneypayoutClass($className)
+{
+    if (strncmp('YandexMoney', $className, 14) === 0) {
+        $path   = YANDEX_MONEY_PAY_ROOT_PATH;
+        $length = 14;
+    } else {
+        return;
+    }
+    $path .= str_replace('\\', '/', substr($className, $length)) . '.php';
+    if (file_exists($path)) {
+        require $path;
     }
 }
 
-spl_autoload_register( 'yandexmoneypayoutClass' );
+spl_autoload_register('yandexmoneypayoutClass');
