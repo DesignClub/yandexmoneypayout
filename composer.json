@@ -1,5 +1,7 @@
 {
     "name": "yandexmoneypayout/yandexmoneypayout",
+    "description": "",
+    "minimum-stability": "stable",
     "license": "MIT",
     "autoload": {
         "classmap": ["src/", "lib/"],
