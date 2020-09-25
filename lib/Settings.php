@@ -5,7 +5,7 @@
  * Time: 21:43
  */
 
-namespace YandexMoney;
+namespace YandexMoneyPayOut;
 
 class Settings {
     public $host;

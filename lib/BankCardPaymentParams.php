@@ -5,7 +5,7 @@
  * Time: 1:31
  */
 
-namespace YandexMoney;
+namespace YandexMoneyPayOut;
 
 
 class BankCardPaymentParams extends PaymentParams

@@ -5,10 +5,10 @@
  * Time: 18:50
  */
 
-namespace YandexMoney;
+namespace YandexMoneyPayOut;
 
 
-use YandexMoney\interfaces\IXMLTransformable;
+use YandexMoneyPayOut\interfaces\IXMLTransformable;
 
 class BalanceRequestParams implements IXMLTransformable
 {

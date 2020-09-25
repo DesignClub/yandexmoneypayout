@@ -5,7 +5,7 @@
  * Time: 19:30
  */
 
-namespace YandexMoney\interfaces;
+namespace YandexMoneyPayOut\interfaces;
 
 
 interface IDispositionRequestProvider {

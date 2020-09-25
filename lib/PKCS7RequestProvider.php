@@ -5,11 +5,11 @@
  * Time: 19:31
  */
 
-namespace YandexMoney;
+namespace YandexMoneyPayOut;
 
 
-use YandexMoney\interfaces\IDispositionRequestProvider;
-use YandexMoney\interfaces\IXMLTransformable;
+use YandexMoneyPayOut\interfaces\IDispositionRequestProvider;
+use YandexMoneyPayOut\interfaces\IXMLTransformable;
 
 class PKCS7RequestProvider implements IDispositionRequestProvider
 {

@@ -5,11 +5,11 @@
  * Time: 18:35
  */
 
-namespace YandexMoney;
+namespace YandexMoneyPayOut;
 
 
-use YandexMoney\interfaces\IDispositionRequestProvider;
-use YandexMoney\interfaces\IPayoutAPI;
+use YandexMoneyPayOut\interfaces\IDispositionRequestProvider;
+use YandexMoneyPayOut\interfaces\IPayoutAPI;
 
 class PayoutAPI implements IPayoutAPI
 {

@@ -5,10 +5,9 @@
  * Time: 18:51
  */
 
-namespace YandexMoney;
+namespace YandexMoneyPayOut;
 
-
-use YandexMoney\interfaces\IXMLTransformable;
+use YandexMoneyPayOut\interfaces\IXMLTransformable;
 
 class DepositionRequestParams implements IXMLTransformable
 {

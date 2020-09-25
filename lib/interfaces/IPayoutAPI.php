@@ -5,11 +5,11 @@
  * Time: 18:35
  */
 
-namespace YandexMoney\interfaces;
+namespace YandexMoneyPayOut\interfaces;
 
 
-use YandexMoney\BalanceRequestParams;
-use YandexMoney\DepositionRequestParams;
+use YandexMoneyPayOut\BalanceRequestParams;
+use YandexMoneyPayOut\DepositionRequestParams;
 
 interface IPayoutAPI
 {

@@ -7,9 +7,9 @@
 
 define('YANDEX_MONEY_PAY_ROOT_PATH', dirname(__FILE__));
 
-function yandexmoneypayoutClass($className)
+function yandexMoneyPayOutClass($className)
 {
-    if (strncmp('YandexMoney', $className, 14) === 0) {
+    if (strncmp('YandexMoneyPayOut', $className, 14) === 0) {
         $path   = YANDEX_MONEY_PAY_ROOT_PATH;
         $length = 14;
     } else {
@@ -21,4 +21,4 @@ function yandexmoneypayoutClass($className)
     }
 }
 
-spl_autoload_register('yandexmoneypayoutClass');
+spl_autoload_register('yandexMoneyPayOutClass');

@@ -5,7 +5,7 @@
  * Time: 18:36
  */
 
-namespace YandexMoney\interfaces;
+namespace YandexMoneyPayOut\interfaces;
 
 
 interface IXMLTransformable {

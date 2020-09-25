@@ -5,10 +5,10 @@
  * Time: 18:57
  */
 
-namespace YandexMoney;
+namespace YandexMoneyPayOut;
 
 
-use YandexMoney\interfaces\IXMLTransformable;
+use YandexMoneyPayOut\interfaces\IXMLTransformable;
 
 class ErrorDepositionParams implements IXMLTransformable
 {
