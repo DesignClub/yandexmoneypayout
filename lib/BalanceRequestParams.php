@@ -9,6 +9,7 @@ namespace YandexMoneyPayOut;
 
 
 use YandexMoneyPayOut\interfaces\IXMLTransformable;
+use YandexMoneyPayOut\BalanceRequestParams;
 
 class BalanceRequestParams implements IXMLTransformable
 {

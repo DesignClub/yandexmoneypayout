@@ -8,6 +8,7 @@
 namespace YandexMoneyPayOut;
 
 use YandexMoneyPayOut\interfaces\IXMLTransformable;
+use YandexMoneyPayOut\DepositionRequestParams;
 
 class DepositionRequestParams implements IXMLTransformable
 {

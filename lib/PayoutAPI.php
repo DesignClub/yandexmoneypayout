@@ -10,6 +10,7 @@ namespace YandexMoneyPayOut;
 
 use YandexMoneyPayOut\interfaces\IDispositionRequestProvider;
 use YandexMoneyPayOut\interfaces\IPayoutAPI;
+use YandexMoneyPayOut\PayoutAPI;
 
 class PayoutAPI implements IPayoutAPI
 {

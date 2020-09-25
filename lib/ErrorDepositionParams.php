@@ -9,6 +9,7 @@ namespace YandexMoneyPayOut;
 
 
 use YandexMoneyPayOut\interfaces\IXMLTransformable;
+use YandexMoneyPayOut\ErrorDepositionParams;
 
 class ErrorDepositionParams implements IXMLTransformable
 {

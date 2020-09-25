@@ -10,6 +10,7 @@ namespace YandexMoneyPayOut;
 
 use YandexMoneyPayOut\interfaces\IDispositionRequestProvider;
 use YandexMoneyPayOut\interfaces\IXMLTransformable;
+use YandexMoneyPayOut\PKCS7RequestProvider;
 
 class PKCS7RequestProvider implements IDispositionRequestProvider
 {

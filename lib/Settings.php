@@ -7,6 +7,8 @@
 
 namespace YandexMoneyPayOut;
 
+use YandexMoneyPayOut\Settings;
+
 class Settings {
     public $host;
 

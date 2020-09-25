@@ -7,6 +7,7 @@
 
 namespace YandexMoneyPayOut;
 
+use YandexMoneyPayOut\BankCardPaymentParams;
 
 class BankCardPaymentParams extends PaymentParams
 {
