@@ -2,8 +2,12 @@
     "name": "yandexmoneypayout/yandexmoneypayout",
     "license": "MIT",
     "autoload": {
+        "classmap": ["src/", "lib/"],
         "psr-4": {
             "YandexMoneyPayOut\\": "lib/"
+        },
+        "psr-0": { 
+            "YandexMoneyPayOut\\": ["lib/"] 
         }
     },
 }
