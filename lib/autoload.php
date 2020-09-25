@@ -5,14 +5,14 @@
  * Time: 19:33
  */
 
-function yandexmoneypayoutClass($className)
+function yandexmoneypayoutClass( $className )
 {
     $parts = explode( '\\', $className );
 
-    require __FILE__.'/'.implode('/', array_slice($parts, 1)) . '.php';
-    /*if ( $parts[ 0 ] == 'YandexMoney' )
+    if ( $parts[ 0 ] == 'YandexMoney' )
     {
-    }*/
+        require __DIR__.'/'.implode('/', array_slice($parts, 1)) . '.php';
+    }
 }
 
-spl_autoload_register('yandexmoneypayoutClass');
+spl_autoload_register( 'yandexmoneypayoutClass' );
