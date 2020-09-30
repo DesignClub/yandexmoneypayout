@@ -13,4 +13,6 @@
         },
         "files": ["lib/BalanceRequestParams.php"]
     },
+    "include-path": ["lib/"],
+    "target-dir": "yandexmoneypayout/yandexmoneypayout/lib"
 }
